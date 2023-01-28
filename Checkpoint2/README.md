@@ -41,7 +41,7 @@ Date:   Wed Jan 25 01:50:55 2023 -0500
 ---
 ### Part B - Inspecting Local Repo with `git status` and `git log`
 
-#### Difference between `git status` and `git log`?
+#### ***Difference between `git status` and `git log`?***
 
 
 The primary difference between `git status` and `git log` is that `git status` allows us to obtain information such as whether the branch on which `git status` was run is updated, the staging location of any files (staged, unstaged, or untracked), whether there were any pull or push, etc. Therefore, the command `git status` displays the status and details of the directory we are now in. However, `git log` will give the committed history of the branch we are now in. It will show what we put for the `git commit` comment when we run the `git log` command and the exact date and time each of those happened. 
