@@ -79,7 +79,7 @@ git log -n 5
 
 ---
 
-***git log -n 5 output after merging two branches***
+***`git log -n 5` output after merging two branches***
 
 ```
 Taamer@DESKTOP-M0FHV2P MINGW64 /d/School/CSN400/GitHub-CSN400/CSN400-Capstone/Checkpoint2 (main)
