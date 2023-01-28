@@ -128,11 +128,11 @@ Date:   Wed Jan 25 01:50:55 2023 -0500
 
 ***2. What are the three supporting branches? Briefly describe the function of each of these supporting branches.***
 
-    The three supporting branches are, `Feature/Bugfix branches`, `Hotfix branches`, and `Release branches`. When creating a new feature or improvement, `Feature branches` are employed. Technical differences separate `Bug branches` and `Feature branches`. When a bug exists that needs to be resolved and combined into the coming deployment, bug branches will be made. For a `Hotfix branch` you need to always branch from the tagged `master` branch. This is because while the `hotfix` is being worked on, development can continue on the `develop` branch. After, you have to merge back into `master` and `develop`. The way you name is `'hotfix-issue-(an ID)'`. `Release branches` are temporary branches that are only used to set up releases. When using `Release branches` you have to branch from `develop`, then merge back into `master` and `develop` just like the `Hotfix branch`.
+The three supporting branches are, `Feature/Bugfix branches`, `Hotfix branches`, and `Release branches`. When creating a new feature or improvement, `Feature branches` are employed. Technical differences separate `Bug branches` and `Feature branches`. When a bug exists that needs to be resolved and combined into the coming deployment, bug branches will be made. For a `Hotfix branch` you need to always branch from the tagged `master` branch. This is because while the `hotfix` is being worked on, development can continue on the `develop` branch. After, you have to merge back into `master` and `develop`. The way you name is `'hotfix-issue-(an ID)'`. `Release branches` are temporary branches that are only used to set up releases. When using `Release branches` you have to branch from `develop`, then merge back into `master` and `develop` just like the `Hotfix branch`.
 
 ---
 
 ***3. What are the best practices in working with `release` branches?***
 
 
-    Create the branch locally, then push it to GitHub if it's not already there . A release branch has to always be accessible to the general public. In other words, development shouldn't ever take place in a single developer's local branch. Then it must merge changes into master and tag the release once all last-minute adjustments to the release branch have been made.
+Create the branch locally, then push it to GitHub if it's not already there . A release branch has to always be accessible to the general public. In other words, development shouldn't ever take place in a single developer's local branch. Then it must merge changes into master and tag the release once all last-minute adjustments to the release branch have been made.
