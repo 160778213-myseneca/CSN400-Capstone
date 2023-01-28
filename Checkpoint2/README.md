@@ -112,7 +112,7 @@ commit 6feaaeba3a181b15158bb22cd3cc52f0e6a4e659
 Author: 160778213-myseneca <tfaruk1@myseneca.ca>
 Date:   Wed Jan 25 01:50:55 2023 -0500
 
-    adds Checkpoint2/README.md
+    adds CP2/README.md
 ```
 ---
 
