@@ -56,10 +56,15 @@ The primary difference between `git status` and `git log` is that `git status` a
 #### ***main branch*** 
 ![Main Branch](https://github.com/160778213-myseneca/CSN400-Capstone/blob/main/Checkpoint2/Screenshots/mainBranch.png)
 
+---
+
 #### ***feat-emojis branch***
 ![feat-emojis branch](https://github.com/160778213-myseneca/CSN400-Capstone/blob/main/Checkpoint2/Screenshots/feat-emojisBranch.png) 
 
 ---
+
+#### ***Branches***
+![Branches](https://github.com/160778213-myseneca/CSN400-Capstone/blob/main/Checkpoint2/Screenshots/2branches.png) 
 
 ```
 Taamer@DESKTOP-M0FHV2P MINGW64 /d/School/CSN400/GitHub-CSN400/CSN400-Capstone/Checkpoint2 (main)
