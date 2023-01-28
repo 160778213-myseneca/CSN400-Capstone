@@ -54,10 +54,10 @@ The primary difference between `git status` and `git log` is that `git status` a
 ---
 
 #### ***main branch*** 
-Screenshot of Main Branch not having 'emojis' folder before merge is included inside Checkpoint 2 repository as a .png.
+![Main Branch](https://github.com/160778213-myseneca/CSN400-Capstone/blob/main/Checkpoint2/Screenshots/mainBranch.png)
 
 #### ***feat-emojis branch***
-Screenshot of feat-emojis branch having 'emojis' folder before and after merge is included inside Checkpoint 2 repository as a .png. 
+![feat-emojis branch](https://github.com/160778213-myseneca/CSN400-Capstone/blob/main/Checkpoint2/Screenshots/feat-emojisBranch.png) 
 
 ---
 
