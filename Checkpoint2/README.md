@@ -120,7 +120,7 @@ Date:   Wed Jan 25 01:50:55 2023 -0500
 
 `Main`: the branch that GitHub shows when someone visits your repository. Additionally, whenever anyone clones the repository, Git first checks out the default branch locally. Main is our default branch that we use for Git and in GitHub website.
 
-`Develop`: the active development branch. Creating feature and bugfix branches away from develop, working on the problem, and then merging back into develop are all parts of the developer's job. The most recent development state planned for the following release is always the HEAD of origin/develop.
+`Develop`: the active development branch. Creating feature and bugfix branches away from develop, working on the problem, and then merging back into develop are all parts of the developer's job. The most recent development state planned for the following release is always the HEAD of origin/develop. Adding a version number to every commit in the main branch is also effective. This branch will include the entire project history, however the main branch will only include a simplified version.
 
 
 
