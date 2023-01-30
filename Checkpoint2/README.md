@@ -9,10 +9,10 @@
 ---
 
 ### Table of Contents
-1. [Part A - Adding Files - Local Repo Workflow](#part-a)
-2. [Part B - Inspecting Local Repo with `git status` and `git log`](#part-b)
-3. [Part C - Creating & Merging Branches](#part-c)
-4. [Part D - Git Branching Strategy Review Questions](#part-d)
+1. [Part A: Adding Files - Local Repo Workflow](#part-a)
+2. [Part B: Inspecting Local Repo with `git status` and `git log`](#part-b)
+3. [Part C: Creating & Merging Branches](#part-c)
+4. [Part D: Git Branching Strategy Review Questions](#part-d)
 
 
 ### Part A - Adding Files - Local Repo Workflow
@@ -137,3 +137,6 @@ Date:   Wed Jan 25 01:50:55 2023 -0500
 
 
     Create the branch locally, then push it to GitHub if it's not already there . A release branch has to always be accessible to the general public. In other words, development shouldn't ever take place in a single developer's local branch. Then it must merge changes into master and tag the release once all last-minute adjustments to the release branch have been made.
+
+
+A
