@@ -10,13 +10,13 @@
 
 ### Table of Contents
 
-1. [Part A: Adding Files, Local Repo Workflow](#part-a)
-2. [Part B: Inspecting Local Repo with `git status` and `git log`](#part-b)
-3. [Part C: Creating & Merging Branches](#part-c)
-4. [Part D: Git Branching Strategy Review Questions](#part-d)
+1. [Part A - Adding Files - Local Repo Workflow](#part-a)
+2. [Part B - Inspecting Local Repo with `git status` and `git log`](#part-b)
+3. [Part C - Creating & Merging Branches](#part-c)
+4. [Part D - Git Branching Strategy Review Questions](#part-d)
 
 
-### Part A: Adding Files, Local Repo Workflow
+### Part A - Adding Files - Local Repo Workflow
 
 ```
 Taamer@DESKTOP-M0FHV2P MINGW64 /d/School/CSN400/GitHub-CSN400/CSN400-Capstone/Checkpoint2 (main)
@@ -40,7 +40,7 @@ Date:   Wed Jan 25 01:50:55 2023 -0500
     adds CP2/README.md
 ```
 ---
-### Part B: Inspecting Local Repo with `git status` and `git log`
+### Part B - Inspecting Local Repo with `git status` and `git log`
 
 #### ***Difference between `git status` and `git log`?***
 
@@ -61,7 +61,7 @@ git log -n 5
 
 ---
 
-### Part C: Creating & Merging Branches
+### Part C - Creating & Merging Branches
 
 ---
 
@@ -117,7 +117,7 @@ Date:   Wed Jan 25 01:50:55 2023 -0500
 ```
 ---
 
-### Part D: Git Branching Strategy Review Questions
+### Part D - Git Branching Strategy Review Questions
 
 ***1. What are the differences between `develop` branch and `main` branch?***
 
