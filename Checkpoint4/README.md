@@ -37,5 +37,3 @@ odl_user [ ~/workfolder/CSN400-Capstone/Checkpoint4 ]$ az network vnet subnet sh
 
 ![partD-4](https://user-images.githubusercontent.com/123032283/216807684-fc6670d7-0472-4f03-b3be-130bbdcce70e.png)
 =======
-![partD-4](https://user-images.githubusercontent.com/123032283/216807684-fc6670d7-0472-4f03-b3be-130bbdcce70e.png)
->>>>>>> 254a66325d3dc370c1c039910a65e98536692555
