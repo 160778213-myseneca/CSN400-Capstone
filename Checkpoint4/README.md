@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Checkpoint4 Submission
 
 - **COURSE INFORMATION: xxx**
@@ -20,3 +21,6 @@ You must then add below content into your `README.md`:
 5. Part D - Network Review Questions: check blackboard portal submission for this part. You do not need to submit it in GitHub 
 
 
+=======
+# This is my CP4
+>>>>>>> fe7c31121d2f97054ffc2aaa1f7312beffabed39
