@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Checkpoint4 Submission
 
 - **COURSE INFORMATION: xxx**
@@ -12,7 +11,6 @@
 2. [Part B - Creating Resources in Azure Portal](#part-b)
 3. [Part C - Working in Azure CLI Bash](#part-c)
 
-<<<<<<< HEAD
 =======
 
 1. [Part A - Creating Your Unique Network Topology](#part-a)
