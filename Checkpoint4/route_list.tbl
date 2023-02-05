@@ -1,0 +1,4 @@
+Name           DestinationAddressPrefix    NextHopType
+-------------  --------------------------  ----------------
+RouterServer   172.17.151.32/27            VirtualAppliance
+RouterStudent  10.46.66.0/24               VirtualAppliance
