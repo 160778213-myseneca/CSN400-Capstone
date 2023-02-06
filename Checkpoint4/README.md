@@ -15,6 +15,9 @@
 
 1. [Part A - Creating Your Unique Network Topology](#part-a)
 
+![NetworkTopology](https://user-images.githubusercontent.com/123032283/216890655-6cd26172-ac2a-4542-a920-7337a1d5ad70.png)
+
+
 2. [Part B - Creating Resources in Azure Portal](#part-b)
 
 ```
