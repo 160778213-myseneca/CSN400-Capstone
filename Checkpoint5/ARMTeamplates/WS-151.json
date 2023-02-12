@@ -1,0 +1,47 @@
+{
+    "properties": {
+        "notes": "Windows Server 2019 Datacenter",
+        "ownerObjectId": "2f3061dc-a2db-4280-ac6a-d16b9cc86354",
+        "ownerUserPrincipalName": "odl_user_846072@seneca-csn400nbb.cloudlabs.ai",
+        "createdByUserId": "100320026C637880",
+        "createdByUser": "odl_user_846072@seneca-csn400nbb.cloudlabs.ai",
+        "createdDate": "2023-02-10T03:09:38.1613342+00:00",
+        "computeId": "/subscriptions/e22a2bd0-d760-4866-9918-1c98f501eb6a/resourceGroups/student-rg-846072/providers/Microsoft.Compute/virtualMachines/WS-151",
+        "osType": "Windows",
+        "size": "Standard_B2s",
+        "userName": "tfaruk1",
+        "isAuthenticationWithSshKey": false,
+        "labSubnetName": "SN1",
+        "labVirtualNetworkId": "/subscriptions/e22a2bd0-d760-4866-9918-1c98f501eb6a/resourcegroups/student-rg-846072/providers/microsoft.devtestlab/labs/csn400-151/virtualnetworks/server-151",
+        "disallowPublicIpAddress": true,
+        "artifactDeploymentStatus": {
+            "artifactsApplied": 0,
+            "totalArtifacts": 0
+        },
+        "galleryImageReference": {
+            "offer": "WindowsServer",
+            "publisher": "MicrosoftWindowsServer",
+            "sku": "2019-Datacenter",
+            "osType": "Windows",
+            "version": "latest"
+        },
+        "networkInterface": {},
+        "allowClaim": false,
+        "storageType": "Standard",
+        "virtualMachineCreationSource": "FromGalleryImage",
+        "lastKnownPowerState": "Running",
+        "provisioningState": "Succeeded",
+        "uniqueIdentifier": "3f6a0162-17d0-4b3f-b049-b0ea449758f6"
+    },
+    "location": "canadacentral",
+    "tags": {
+        "DeploymentId": "846072",
+        "LaunchId": "28960",
+        "LaunchType": "ON_DEMAND_LAB",
+        "TemplateId": "4678",
+        "TenantId": "353"
+    },
+    "id": "/subscriptions/e22a2bd0-d760-4866-9918-1c98f501eb6a/resourcegroups/student-rg-846072/providers/microsoft.devtestlab/labs/csn400-151/virtualmachines/ws-151",
+    "name": "WS-151",
+    "type": "Microsoft.DevTestLab/labs/virtualMachines"
+}
