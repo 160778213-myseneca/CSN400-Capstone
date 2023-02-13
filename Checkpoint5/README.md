@@ -16,7 +16,7 @@
 
 ###  Part A - Creating Resources in Azure Portal
 
-
+![a1](https://user-images.githubusercontent.com/123032283/218374726-3cf37b25-4f24-48e0-8de4-8c1c69f08319.jpg)
 
 ### Part B - Working with `az lab` CLI command
 
