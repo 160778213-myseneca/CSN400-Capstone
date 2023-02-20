@@ -1,4 +1,3 @@
-[tfaruk1@LR-151 workfolder]$ cat iptables.txt
 Chain INPUT (policy ACCEPT 0 packets, 0 bytes)
  pkts bytes target     prot opt in     out     source               destination
  4645  970K ACCEPT     tcp  --  *      *       0.0.0.0/0            0.0.0.0/0            state RELATED,ESTABLISHED

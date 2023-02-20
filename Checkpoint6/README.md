@@ -1,1 +1,1 @@
-# Checkpoint 6 submission
+# Checkpoint6 submission
