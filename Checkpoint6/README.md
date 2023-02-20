@@ -59,6 +59,10 @@ Chain OUTPUT (policy ACCEPT 0 packets, 0 bytes)
  pkts bytes target     prot opt in     out     source               destination
  7389 1764K ACCEPT     all  --  *      *       0.0.0.0/0            0.0.0.0/0
 ```
+
+![image](https://user-images.githubusercontent.com/123032283/220012869-5912581d-ae80-4d60-b41c-bfcf397c54cd.png)
+
+
 Part E - Azure Cost Analysis Charts
 
 ***1. Screenshot of resources daily costs for last 7 days***
