@@ -29,6 +29,8 @@ Part C - Enable ip-forwarding in NIC
 true
 ```
 
+***Screenshot of running the command***
+![ipforwarding enabled](https://user-images.githubusercontent.com/123032283/220009745-844388c4-6b42-408e-a643-39eb7fcab3bf.jpg)
 
 
 Part D - Basic Connectivity
@@ -58,3 +60,21 @@ Chain OUTPUT (policy ACCEPT 0 packets, 0 bytes)
  7389 1764K ACCEPT     all  --  *      *       0.0.0.0/0            0.0.0.0/0
 ```
 Part E - Azure Cost Analysis Charts
+
+***1. Screenshot of resources daily costs for last 7 days***
+![E1](https://user-images.githubusercontent.com/123032283/220008836-56f6117f-4bcb-4a1e-a050-3be8314e7645.jpg)
+
+***2. Scrrenshot of Service daily costs for last 7 days***
+![E2](https://user-images.githubusercontent.com/123032283/220009021-457dbfb2-463d-4667-af5c-c504a0bddc2d.jpg)
+
+***3. Screenshot of Resource accumulated costs last 7 days*** 
+![E3](https://user-images.githubusercontent.com/123032283/220009088-ac998816-9ff8-416b-9113-4c27061b4292.jpg)
+
+***4. Screenshot of Service Name last month pie chart***
+![E4](https://user-images.githubusercontent.com/123032283/220009136-9c52bebd-f2b7-4c9e-b470-b361f6363f38.jpg)
+
+***5. Screenshot of Service Family last month pie chart***
+![E5](https://user-images.githubusercontent.com/123032283/220009181-61faae76-ed7e-4bae-830d-2e79a1d16fce.jpg)
+
+***6. Screenshot of Product last month pie chart***
+![E6](https://user-images.githubusercontent.com/123032283/220009216-8bee81f5-794c-45f8-90be-dac5cb7cc39d.jpg)
