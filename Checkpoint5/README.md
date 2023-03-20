@@ -61,7 +61,7 @@
 ![Part-c](https://user-images.githubusercontent.com/123032283/218376052-d2b5c69b-bd38-40f1-96e4-fe6072e90e2c.jpg)
 
 
-### Part D - Azure Cost Analysis Charts
+### Part E - Azure Cost Analysis Charts
 
 ***Screenshot of the daily costs for last 7 days***
 ![d1](https://user-images.githubusercontent.com/123032283/218376499-f84fdb70-0b63-4800-a5b5-935d4873ca3c.jpg)
