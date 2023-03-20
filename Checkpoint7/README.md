@@ -83,7 +83,7 @@ Mar 20 03:16:42 LR-151 kernel: FTP CONTROL PLANE FORWARD WS-IN=eth0 OUT=eth0 MAC
 ### Part C - Analyzing Logged Packets
 
 | Packet ID | Date | MAC Address | Protocol | Source Address | Dest. Address | Source Port | Dest. Port | Packet Length | LOG Prefix | Time To Live |
-|-|-|-|-|-|-|-|-|-|-|-|-|
+|-|-|-|-|-|-|-|-|-|-|-|
 | 46345 | Mar 20 02:34:38 | 00:22:48:ad:cb:a0:fc:bd:67:52:61:dd:08:00 | TCP | 10.46.66.4 | 192.168.151.36 | 56688 | 22 | 40 | SSH INPUT LR-151 -  | 128 |
 
 1.
