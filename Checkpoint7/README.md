@@ -84,6 +84,9 @@ Mar 20 03:16:42 LR-151 kernel: FTP CONTROL PLANE FORWARD WS-IN=eth0 OUT=eth0 MAC
 
 | Packet ID | Date | MAC Address | Protocol | Source Address | Source Address | Dest. Address | Source Port | Dest. Port | Packet Length | LOG Prefix | Time To Live |
 |-|-|-|-|-|-|-|-|-|-|-|-|
+| 123 | 2323 | f323fas2325hn | tcp | 123234 | 3454353454 | 5678678768 | 33 | 22 | 300 | ferwet | 220 |
+
+1.
 
 2. 
 Because of Windows dynamic port allocation system, the source port used by the Windows client is often not similar to the type of service requested. The operating system randomly selects a source port number from the range of temporary ports that are accessible whenever a Windows application seeks a network connection (usually up to 65535). When the connection is established, this source port is used for the length of the connection before being released.
