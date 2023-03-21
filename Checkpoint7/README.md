@@ -15,6 +15,9 @@
 
 ### Part A – Logging Packets with Specific Prefixes
 
+***Link to bash script for lr_firewall_log.sh***
+https://github.com/160778213-myseneca/CSN400-Capstone/blob/main/Checkpoint7/lr_firewall_log.sh 
+
 ```
 [tfaruk1@LR-151 workfolder]$ cat lr_firewalls_log.txt
 Chain INPUT (policy ACCEPT 2 packets, 80 bytes)
