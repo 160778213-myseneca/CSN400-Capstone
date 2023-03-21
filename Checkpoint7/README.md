@@ -15,7 +15,7 @@
 
 ### Part A – Logging Packets with Specific Prefixes
 
-***Link to bash script for lr_firewall_log.sh***
+***Link to bash script for lr_firewall_log.sh:***
 https://github.com/160778213-myseneca/CSN400-Capstone/blob/main/Checkpoint7/lr_firewall_log.sh 
 
 ```
