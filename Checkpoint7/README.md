@@ -50,10 +50,10 @@ num   pkts bytes target     prot opt in     out     source               destina
 19      24  3284 LOG        tcp  --  *      *       10.46.66.0/24        172.17.151.36        tcp dpt:80 limit: avg 100/sec burst 5 LOG flags 0 level 4 prefix "HTTP FORWARD WS-151 - "
 20      24  3284 ACCEPT     tcp  --  *      *       10.46.66.0/24        172.17.151.36        tcp dpt:80
 21      24  2248 ACCEPT     tcp  --  *      *       172.17.151.36        10.46.66.0/24        tcp spt:80
-22      73  3434 LOG        tcp  --  *      *       10.46.66.0/24        172.17.151.36        tcp dpt:21 limit: avg 100/sec burst 5 LOG flags 0 level 4 prefix "FTP CONTROL PLANE FORWARD WS-"
+22      73  3434 LOG        tcp  --  *      *       10.46.66.0/24        172.17.151.36        tcp dpt:21 limit: avg 100/sec burst 5 LOG flags 0 level 4 prefix "FTP CONTROL PLANE FORWARD WS-151 - "
 23      89  4280 ACCEPT     tcp  --  *      *       10.46.66.0/24        172.17.151.36        tcp dpt:21
 24      89  6103 ACCEPT     tcp  --  *      *       172.17.151.36        10.46.66.0/24        tcp spt:21
-25      33  2922 LOG        tcp  --  *      *       10.46.66.0/24        172.17.151.36        tcp dpts:50000:51000 limit: avg 100/sec burst 5 LOG flags 0 level 4 prefix "FTP DATA PLANE FORWARD WS-151"
+25      33  2922 LOG        tcp  --  *      *       10.46.66.0/24        172.17.151.36        tcp dpts:50000:51000 limit: avg 100/sec burst 5 LOG flags 0 level 4 prefix "FTP DATA PLANE FORWARD WS-151 - "
 26      40  3202 ACCEPT     tcp  --  *      *       10.46.66.0/24        172.17.151.36        tcp dpts:50000:51000
 27      34  4362 ACCEPT     tcp  --  *      *       172.17.151.36        10.46.66.0/24        tcp spts:50000:51000
 28       6  7560 LOG        all  --  *      *       0.0.0.0/0            0.0.0.0/0            limit: avg 10/sec burst 5 LOG flags 0 level 4 prefix "TO_DROP_FORWARD"
@@ -91,7 +91,7 @@ Mar 20 03:16:42 LR-151 kernel: FTP CONTROL PLANE FORWARD WS-151 - IN=eth0 OUT=et
 | 29082 | Mar 20 03:26:01 | 00:22:48:ad:cb:a0:fc:bd:67:52:61:dd:08:00 | UDP | 10.46.66.4 | 172.17.151.37 | 57500 | 53 | 62 | DNS UDP FORWARD - | 127 |
 | 15077 | Mar 20 03:10:22 | 00:22:48:ad:cb:a0:fc:bd:67:52:61:dd:08:00 | TCP | 10.46.66.4 | 172.17.151.37 | 61544 | 80 | 40 | HTTP FORWARD LS-151 - | 127 |
 | 15083 | Mar 20 03:11:12 | 00:22:48:ad:cb:a0:fc:bd:67:52:61:dd:08:00 | TCP | 10.46.66.4 | 172.17.151.37 | 58606 | 3306 | 40 | MySQL FORWARD LS-151 - | 127 |
-| 28708 | Mar 20 03:16:42 | 00:22:48:ad:cb:a0:fc:bd:67:52:61:dd:08:00 | TCP | 10.46.66.4 | 172.17.151.36 | 61703 | 21 | 40 | FTP CONTROL PLANE FORWARD WS - | 127 |
+| 28708 | Mar 20 03:16:42 | 00:22:48:ad:cb:a0:fc:bd:67:52:61:dd:08:00 | TCP | 10.46.66.4 | 172.17.151.36 | 61703 | 21 | 40 | FTP CONTROL PLANE FORWARD WS-151 - | 127 |
 
 
 1.
