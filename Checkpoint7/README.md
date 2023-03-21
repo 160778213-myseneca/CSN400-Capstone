@@ -18,7 +18,7 @@
 ***Link to bash script for lr_firewall_log.sh:***
 https://github.com/160778213-myseneca/CSN400-Capstone/blob/main/Checkpoint7/lr_firewall_log.sh 
 
-***Link to iptables -nvL --line output file (lr_firewalls_log.txt): ***
+***Link to iptables -nvL --line output file (lr_firewalls_log.txt):***
 https://github.com/160778213-myseneca/CSN400-Capstone/blob/main/Checkpoint7/lr_firewalls_log.txt
 
 ```
