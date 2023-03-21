@@ -20,12 +20,7 @@
 Chain INPUT (policy ACCEPT 2 packets, 80 bytes)
 num   pkts bytes target     prot opt in     out     source               destination
 1      538 31272 LOG        tcp  --  *      *       10.46.66.0/24        192.168.151.36       tcp dpt:22 limit: avg 10/sec burst 5 LOG flags 0 level 4 prefix "SSH INPUT LR-151 - "
-2     2056  372K ACCEPT     tcp  --  *      *       0.0.0.0/0            0.0.0.0/0            state RELATED,ESTABLISHED
-3        0     0 ACCEPT     icmp --  *      *       0.0.0.0/0            0.0.0.0/0
-4        4   116 ACCEPT     all  --  lo     *       0.0.0.0/0            0.0.0.0/0
-5        0     0 ACCEPT     tcp  --  *      *       10.46.66.0/24        0.0.0.0/0            state NEW tcp dpt:22
-6       10  1211 LOG        all  --  *      *       0.0.0.0/0            0.0.0.0/0            limit: avg 10/sec burst 5 LOG flags 0 level 4 prefix "TO_DROP_INPUT"
-7       10  1211 DROP       all  --  *      *       0.0.0.0/0            0.0.0.0/0
+2        0     0 ACCEPT     tcp  --  *      *       10.46.66.0/24       192.168.151.36        tcp dpt:22
 
 Chain FORWARD (policy ACCEPT 0 packets, 0 bytes)
 num   pkts bytes target     prot opt in     out     source               destination
@@ -57,12 +52,11 @@ num   pkts bytes target     prot opt in     out     source               destina
 26      40  3202 ACCEPT     tcp  --  *      *       10.46.66.0/24        172.17.151.36        tcp dpts:50000:51000
 27      34  4362 ACCEPT     tcp  --  *      *       172.17.151.36        10.46.66.0/24        tcp spts:50000:51000
 28       6  7560 LOG        all  --  *      *       0.0.0.0/0            0.0.0.0/0            limit: avg 10/sec burst 5 LOG flags 0 level 4 prefix "TO_DROP_FORWARD"
-29       6  7560 DROP       all  --  *      *       0.0.0.0/0            0.0.0.0/0
 
 Chain OUTPUT (policy ACCEPT 37 packets, 5356 bytes)
 num   pkts bytes target     prot opt in     out     source               destination
 1      426 94044 LOG        tcp  --  *      *       192.168.151.36       10.46.66.0/24        tcp spt:22 limit: avg 100/sec burst 5 LOG flags 0 level 4 prefix "SSH OUTPUT WC-846072 - "
-2     2414  670K ACCEPT     all  --  *      *       0.0.0.0/0            0.0.0.0/0
+2      154 64567 ACCEPT     tcp  --  *      *       192.168.151.36       10.46.66.0/24        tcp spt:22
 ```
 
 ### Part B - Filtering Logged Packets
