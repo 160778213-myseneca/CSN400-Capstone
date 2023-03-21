@@ -97,6 +97,11 @@ Mar 20 03:16:42 LR-151 kernel: FTP CONTROL PLANE FORWARD WS-151 - IN=eth0 OUT=et
 
 
 1.
+Network packets are given a Packet ID (Packet Identifier) to help identify and monitor them as they move through a network. The packet header contains the packet ID, which is normally created by the sender of the packet.
+
+Depending on the protocol being used, the Packet ID might either follow a pattern or be random. For instance, the Packet ID follows a sequential numbering pattern in TCP protocol.
+
+We may look at the relevant network protocol specifications to demonstrate this. As an example, the TCP protocol definition makes it clear that the Packet ID follows a sequential numbering scheme, whereas the UDP standard makes no such demands. Using a program like Wireshark, we can also look at network packet captures to see the Packet IDs in use and confirm their randomization or sequence.
 
 2. 
 Because of Windows dynamic port allocation system, the source port used by the Windows client is often not similar to the type of service requested. The operating system randomly selects a source port number from the range of temporary ports that are accessible whenever a Windows application seeks a network connection (usually up to 65535). When the connection is established, this source port is used for the length of the connection before being released.
@@ -118,7 +123,7 @@ What is MAC address?
 Each network card on a device is assigned a specific code called a MAC address that helps in network identification. Each device has a 12-digit unique code that is used to guarantee data is transmitted to the proper device on the network. It functions as your device's local network equivalent of a postal address.
 
 Can you find the MAC addresses of your Network Interface Cards in Azure Portal? How?
-
+Yes, you can find it. In Azure portal, you can search up Network Interfaces, then select the NIC that of the VM that you want to find the MAC addresss of, then go to Properties, and it should be at the top.
 
 
 ### Part D - Azure Cost Analysis Charts
