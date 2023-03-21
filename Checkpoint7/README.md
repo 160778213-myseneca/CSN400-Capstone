@@ -67,6 +67,8 @@ num   pkts bytes target     prot opt in     out     source               destina
 
 ### Part B - Filtering Logged Packets
 
+***Link to logged_packets.log file:***
+https://github.com/160778213-myseneca/CSN400-Capstone/blob/main/Checkpoint7/logged_packets.log
 
 ```
 [tfaruk1@LR-151 workfolder]$ cat logged_packets.log
