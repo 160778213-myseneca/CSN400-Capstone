@@ -57,7 +57,6 @@ num   pkts bytes target     prot opt in     out     source               destina
 25      33  2922 LOG        tcp  --  *      *       10.46.66.0/24        172.17.151.36        tcp dpts:50000:51000 limit: avg 100/sec burst 5 LOG flags 0 level 4 prefix "FTP DATA PLANE FORWARD WS-151 - "
 26      40  3202 ACCEPT     tcp  --  *      *       10.46.66.0/24        172.17.151.36        tcp dpts:50000:51000
 27      34  4362 ACCEPT     tcp  --  *      *       172.17.151.36        10.46.66.0/24        tcp spts:50000:51000
-28       6  7560 LOG        all  --  *      *       0.0.0.0/0            0.0.0.0/0            limit: avg 10/sec burst 5 LOG flags 0 level 4 prefix "TO_DROP_FORWARD"
 
 Chain OUTPUT (policy ACCEPT 37 packets, 5356 bytes)
 num   pkts bytes target     prot opt in     out     source               destination
