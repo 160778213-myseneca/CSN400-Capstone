@@ -1,8 +1,7 @@
 Chain INPUT (policy ACCEPT 2 packets, 80 bytes)
 num   pkts bytes target     prot opt in     out     source               destination
 1      538 31272 LOG        tcp  --  *      *       10.46.66.0/24        192.168.151.36       tcp dpt:22 limit: avg 10/sec burst 5 LOG flags 0 level 4 prefix "SSH INPUT LR-151 - "
-2     2056  372K ACCEPT     tcp  --  *      *       0.0.0.0/0            0.0.0.0/0            state RELATED,ESTABLISHED
-3        0     0 ACCEPT     tcp  --  *      *       10.46.66.0/24        0.0.0.0/0           state NEW tcp dpt:22
+2      342 23523 ACCEPT     tcp  --  *      *       10.46.66.0/24       192.168.151.36        tcp dpt:22
 
 Chain FORWARD (policy ACCEPT 0 packets, 0 bytes)
 num   pkts bytes target     prot opt in     out     source               destination
@@ -37,3 +36,4 @@ num   pkts bytes target     prot opt in     out     source               destina
 Chain OUTPUT (policy ACCEPT 37 packets, 5356 bytes)
 num   pkts bytes target     prot opt in     out     source               destination
 1      426 94044 LOG        tcp  --  *      *       192.168.151.36       10.46.66.0/24        tcp spt:22 limit: avg 100/sec burst 5 LOG flags 0 level 4 prefix "SSH OUTPUT WC-846072 - "
+2      154 64567 ACCEPT     tcp  --  *      *       192.168.151.36       10.46.66.0/24        tcp spt:22
