@@ -1,4 +1,4 @@
-# Checkpoint 9 Submission
+# Checkpoint 8 Submission
 
 - **COURSE INFORMATION: CSN400NBB**
 - **STUDENT’S NAME: Taamer Faruk**
