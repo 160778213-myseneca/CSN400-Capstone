@@ -14,11 +14,33 @@
 4. [Part D - Azure Cost Analysis Charts](#haeder4)
 
 ### Part A – Route Table Updates
-
-
-
+---
+Command I used to make this table: ***az network route-table route show --name "External-Router" --route-table-name "RT-151" --resource-group "Student-RG-846072" --query "{id:id, addressPrefix:addressPrefix, nextHopType:nextHopType, nextHopIpAddress:nextHopIpAddress}" --output table > RT-151-details***
+```
+cat RT-151-details 
+AddressPrefix     NextHopType       NextHopIpAddress
+----------------  ----------------  ------------------
+192.168.55.32/27  VirtualAppliance  192.168.151.36
+```
+---
+Command I used to make this table: ***az network route-table route show --name "Route-to-Hub" --route-table-name "RT-EX-151" --resource-group "Student-RG-846072" --query "{id:id, addressPrefix:addressPrefix, nextHopType:nextHopType, nextHopIpAddress:nextHopIpAddress}" --output table > RT-EX-151-details***
+```
+cat RT-EX-151-details 
+AddressPrefix     NextHopType       NextHopIpAddress
+----------------  ----------------  ------------------
+192.168.55.32/27  VirtualAppliance  192.168.99.36
+```
+--- 
+Command I used to make this table: ***az network route-table show --name RT-EX-151 --resource-group "Student-RG-846072" --query "subnets[].id" --output table > RT-EX-151-Subnet***
+```
+cat RT-EX-151-Subnet 
+Result
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+/subscriptions/e22a2bd0-d760-4866-9918-1c98f501eb6a/resourceGroups/Student-RG-846072/providers/Microsoft.Network/virtualNetworks/Router-151/subnets/SN1
+```
 ### Part B – Port Forwarding Basic Connectivity
-
+---
+**My nat_basic-connectivity.sh script:**
 ```
 # to flush NAT tables
 iptables -t nat -F
@@ -45,10 +67,10 @@ iptables -t nat -A PREROUTING -p tcp --dport 13151 -j DNAT --to-destination 172.
 
 iptables -t nat -A POSTROUTING -o eth0 -j MASQUERADE
 ```
+---
 
 ### Part C – Logging & Isolating Masqueraded Packets
-
-
+---
 ```
 Apr  8 01:41:10 LR-151 kernel: NAT-log-http-masqueradingIN=eth0 OUT=eth0 MAC=60:45:bd:61:d4:3a:74:83:ef:d0:c4:54:08:00 SRC=192.168.55.36 DST=172.17.151.36 LEN=41 TOS=0x00 PREC=0x00 TTL=125 ID=7804 DF PROTO=TCP SPT=50324 DPT=80 WINDOW=2047 RES=0x00 ACK URGP=0
 Apr  8 01:40:30 LR-151 kernel: NAT-log-http-masqueradingIN=eth0 OUT=eth0 MAC=60:45:bd:61:d4:3a:74:83:ef:d0:c4:54:08:00 SRC=192.168.55.36 DST=172.17.151.37 LEN=40 TOS=0x00 PREC=0x00 TTL=125 ID=7802 DF PROTO=TCP SPT=50322 DPT=80 WINDOW=2050 RES=0x00 ACK URGP=0
