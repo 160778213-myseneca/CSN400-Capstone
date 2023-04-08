@@ -71,6 +71,8 @@ iptables -t nat -A POSTROUTING -o eth0 -j MASQUERADE
 
 ### Part C – Logging & Isolating Masqueraded Packets
 ---
+
+**Logged packets in masqueraded-logged.log with proper syntax: **
 ```
 Apr  8 01:41:10 LR-151 kernel: NAT-log-http-masqueradingIN=eth0 OUT=eth0 MAC=60:45:bd:61:d4:3a:74:83:ef:d0:c4:54:08:00 SRC=192.168.55.36 DST=172.17.151.36 LEN=41 TOS=0x00 PREC=0x00 TTL=125 ID=7804 DF PROTO=TCP SPT=50324 DPT=80 WINDOW=2047 RES=0x00 ACK URGP=0
 Apr  8 01:40:30 LR-151 kernel: NAT-log-http-masqueradingIN=eth0 OUT=eth0 MAC=60:45:bd:61:d4:3a:74:83:ef:d0:c4:54:08:00 SRC=192.168.55.36 DST=172.17.151.37 LEN=40 TOS=0x00 PREC=0x00 TTL=125 ID=7802 DF PROTO=TCP SPT=50322 DPT=80 WINDOW=2050 RES=0x00 ACK URGP=0
@@ -79,5 +81,36 @@ Apr  8 01:51:19 LR-151 kernel: NAT-log-rdp-masqueradingIN=eth0 OUT=eth0 MAC=60:4
 Apr  8 01:45:41 LR-151 kernel: NAT-log-ssh-masqueradingIN=eth0 OUT=eth0 MAC=60:45:bd:61:d4:3a:74:83:ef:d0:c4:54:08:00 SRC=192.168.55.36 DST=172.17.151.37 LEN=52 TOS=0x00 PREC=0x00 TTL=61 ID=60911 DF PROTO=TCP SPT=59164 DPT=22 WINDOW=268 RES=0x00 ACK URGP=0
 ```
 
+**A screenshot of my marked and isolated packets in masqueraded-capture.pcap: **
+![partc1](https://user-images.githubusercontent.com/123032283/230703681-81def61c-a480-4b0e-9694-9cf41ea79ea3.jpg)
+
 ### Part D - Azure Cost Analysis Charts
 
+***1. Screenshot of resources daily costs for last 7 days***
+
+![1](https://user-images.githubusercontent.com/123032283/230703939-bac8bfb5-b898-4a51-884d-d09384db740e.jpg)
+
+
+***2. Scrrenshot of Service daily costs for last 7 days***
+
+![2](https://user-images.githubusercontent.com/123032283/230703945-a6d0e234-f608-4767-9c86-57ee2165a561.jpg)
+
+
+***3. Screenshot of Resource accumulated costs last 7 days*** 
+
+![3](https://user-images.githubusercontent.com/123032283/230703946-858b4972-ca13-40f3-853e-04e27a7afff3.jpg)
+
+
+***4. Screenshot of Service Name last month pie chart***
+
+![4](https://user-images.githubusercontent.com/123032283/230703952-b5330058-b21e-4881-a6b9-372d53178c91.jpg)
+
+
+***5. Screenshot of Service Family last month pie chart***
+
+![5](https://user-images.githubusercontent.com/123032283/230703956-0218b15a-8bc4-4228-b7fb-db56b82a7c72.jpg)
+
+
+***6. Screenshot of Product last month pie chart***
+
+![6](https://user-images.githubusercontent.com/123032283/230703959-dee66e41-7920-4886-9546-beafef812838.jpg)
